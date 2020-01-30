@@ -1,5 +1,7 @@
 package STUDY_3;
 
+import java.math.BigInteger;
+
 public class my_2xn타일링 {
 	  public int solution(int n) {
 			int answer = 0;
