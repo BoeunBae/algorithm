@@ -7,8 +7,9 @@ public class my_디스크컨트롤러 {
     public static int solution(int[][] jobs) {
         int answer = 0;
         Arrays.sort(jobs, (o1,o2)->{
-        	if(o1[1]==o2[1])return Integer.compare(o1[0], o2[0]);
-        	else return Integer.compare(o1[1], o2[1]);
+//        	if(o1[1]==o2[1])return Integer.compare(o1[0], o2[0]);
+//        	else return Integer.compare(o1[1], o2[1]);
+        	return Integer.compare(o1[1], o2[1]);
         });
         LinkedList<int[]> list = new LinkedList<int[]>();
         for(int[] job : jobs) list.add(job);
